@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Elyxite/static/css/main.66406b96.css",
+    "main.js": "/Elyxite/static/js/main.f7b3b738.js",
+    "static/js/787.22a2e86b.chunk.js": "/Elyxite/static/js/787.22a2e86b.chunk.js",
+    "index.html": "/Elyxite/index.html",
+    "main.66406b96.css.map": "/Elyxite/static/css/main.66406b96.css.map",
+    "main.f7b3b738.js.map": "/Elyxite/static/js/main.f7b3b738.js.map",
+    "787.22a2e86b.chunk.js.map": "/Elyxite/static/js/787.22a2e86b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66406b96.css",
+    "static/js/main.f7b3b738.js"
+  ]
+}
