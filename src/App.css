@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+p{
+  position: absolute;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+code {
+  color: lightgreen;
+}
+
+.hero-logo-circles {
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+  padding: 0px;
+  position: relative;
+  user-select: all;
+}
+
+.hero-logo-circle {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  height: 100%;
+
+  object-fit: cover;
+  animation: hero-logo-circle 1s linear infinite;
+  will-change: transform;
+}
+
+.hero-logo-circle1 {
+  animation-duration: 30s;
+}
+
+.hero-logo-circle2 {
+  animation-duration: 40s;
+}
+
+.hero-logo-circle3 {
+  animation-duration: 50s;
+}
+
+.hero-logo-circle4 {
+  animation-duration: 60s;
+}
+
+.hero-logo-circle5 {
+  animation-duration: 70s;
+}
+
+.hero-logo-circle6 {
+  animation-duration: 80s;
+}
+
+.hero-logo-circle7 {
+  animation-duration: 90s;
+}
+
+.hero-logo-circle8 {
+  animation-duration: 100s;
+}
+
+.hero-logo-circle9 {
+  animation-duration: 110s;
+}
+
+.hero-logo-circle10 {
+  animation-duration: 120s;
+}
+
+@keyframes hero-logo-circle {
+  100% {
+    transform: rotate(1turn);
+  }
+}
